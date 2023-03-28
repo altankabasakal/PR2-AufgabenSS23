@@ -1,5 +1,6 @@
 
 public class Kunde {
+<<<<<<< HEAD
 	private String kundenname;
 	private int telefonnumer;
 	private Adresse adress;
@@ -16,5 +17,9 @@ public class Kunde {
 		this.kundenname=kundenname;
 	}
 	
+
+
+
+
 }
 }
