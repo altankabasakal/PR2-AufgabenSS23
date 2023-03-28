@@ -4,7 +4,7 @@ public class Kunde {
 	private int telefonnumer;
 	private Adresse adress;
 	
-	Kunde(String kundenname, int telefonnummer, Adresse adfesse){
+	Kunde(String kundennname, int telefonnummer, Adresse adfesse){
 		
 	}
 	
