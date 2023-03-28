@@ -19,15 +19,18 @@ public class Main {
 
 		// falls Datei nicht existiert, anlegen
 		if (exists == false) {
-			try (FileWriter file = new FileWriter(cfgFile)) {
+			try (BufferedWriter bw = new BufferedWriter(new FileWriter(cfgFile)) {
 
 				System.out.println("Firmenname: ");
 				String firma = scan.nextLine();
 
-				char value = '"';
+				//char value = '"';
 
-				file.write(firma);
+				bw.write("Firmenname =" + firma);
 
+			} else {
+				try (BufferedReader br = new BufferedReader(new Fileeader(cfgFile)))
+				String firma = readLine(); 
 			}
 
 			catch (IOException e) {
