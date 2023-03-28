@@ -26,7 +26,7 @@ public class Main {
 
 				char value = '"';
 
-				file.write();
+				file.write(firma);
 
 			}
 
