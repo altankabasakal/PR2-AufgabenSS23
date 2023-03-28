@@ -9,7 +9,7 @@ public class Kunde {
 	}
 	
 	public String getKundenname() {
-		return kundenname;
+		return kundennamne;
 	}
 	
 	public void setKundenname() {
