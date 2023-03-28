@@ -13,7 +13,7 @@ public class Main {
 
 		Scanner s = new Scanner(System.in);
 
-		String path = "\"C:\\Users\\altan\\pr1.3\\PR2\\src\\ÜB2\\dat\"";
+		String path = "\"C:\\Users\\noorm\\pr1.3\\PR2\\src\\ÜB2\\dat\"";
 
 		File datei = new File(path);
 		if (datei.exists()) {
